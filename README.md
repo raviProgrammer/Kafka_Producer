@@ -14,10 +14,13 @@ Ensure you have the following installed:
 * Maven (for dependency management)
 ## Installation
 ### 1. Clone the repository:
-* git clone https://github.com/raviProgrammer/Kafka_Producer.git
-* cd Kafka_Producer
+
+                     git clone https://github.com/raviProgrammer/Kafka_Producer.git
+             
+                     cd Kafka_Producer
+            
 ### 2. Build the project using Maven:
-mvn clean install
+                      mvn clean install
 ### 3. Start Kafka and Zookeeper.
 ## Usage
 1. Configure the Kafka broker address in the application.properties file.
