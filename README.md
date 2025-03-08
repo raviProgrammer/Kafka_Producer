@@ -29,3 +29,6 @@ Ensure you have the following installed:
                       mvn spring-boot:run
 
 3. Verify messages in the Kafka topic using a Kafka consumer.
+
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests.
