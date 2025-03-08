@@ -24,4 +24,5 @@ mvn clean install
 2. Run the Kafka Producer:
 
 mvn spring-boot:run
+
 4. Verify messages in the Kafka topic using a Kafka consumer.
