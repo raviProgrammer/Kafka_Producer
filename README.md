@@ -14,13 +14,13 @@ Ensure you have the following installed:
 * Maven (for dependency management)
 ## Installation
 ### 1. Clone the repository:
-'''sh
+sh
 git clone 
 https://github.com/raviProgrammer/Kafka_Producer.git
 cd Kafka_Producer
 
 ### 2. Build the project using Maven:
-'''sh
+sh
 mvn clean install
 
 ### 3. Start Kafka and Zookeeper.
@@ -28,7 +28,8 @@ mvn clean install
 ## Usage
 1. Configure the Kafka broker address in the application.properties file.
 2. Run the Kafka Producer:
-'''sh
+
+sh
 mvn spring-boot:run
 
 4. Verify messages in the Kafka topic using a Kafka consumer.
