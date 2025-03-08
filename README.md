@@ -22,5 +22,6 @@ mvn clean install
 ## Usage
 1. Configure the Kafka broker address in the application.properties file.
 2. Run the Kafka Producer:
+
 mvn spring-boot:run
-3. Verify messages in the Kafka topic using a Kafka consumer.
+4. Verify messages in the Kafka topic using a Kafka consumer.
